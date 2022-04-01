@@ -233,7 +233,7 @@ _Response (200 - Ok)_
 ```
 
 
-## 6. DELETE /notes/:id
+## 7. DELETE /notes/:id
 
 Request:
 
