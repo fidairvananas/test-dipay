@@ -31,7 +31,7 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     hooks: {
       beforeCreate(user){
-        password = hassPassword(user.password)
+        user.password = hassPassword(user.password)
       }
     },
     modelName: 'User',
